@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainDiv {
+    width: fit-content;
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  #red {
+    background: red;
+  }
+  #blue {
+    background: blue;
+  }
+  #green {
+    background: green;
+  }
+  #yellow {
+    background: yellow;
+  }
+  #startButton {
+    width: 150px;
+    height: 50px;
+    background: rgb(97, 210, 248);
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: auto;
+  }
+   
+  @keyframes ajillah1 {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: rgb(15, 14, 14);
+    }
+  }
+   
+  @keyframes ajillah3 {
+    from {
+      background-color: green;
+    }
+    to {
+      background-color: rgb(12, 14, 12);
+    }
+  }
+  @keyframes ajillah2 {
+    0% {
+      background-color: black;
+    }
+    100% {
+      background-color: white;
+    }
+  }
+  /* @keyframes ajillah2 {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: rgb(5, 5, 7);
+    }
+  } */
+   
+  @keyframes ajillah4 {
+    from {
+      background-color: yellow;
+    }
+    to {
+      background-color: rgb(6, 6, 5);
+    }
+  }
